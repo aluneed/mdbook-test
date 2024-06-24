@@ -1,0 +1,16 @@
+[book]
+authors = ["aluneed"]
+language = "en"
+multilingual = false
+src = "src"
+title = "mdBook test"
+
+[output.html]
+no-section-label = true
+default-theme = "light"
+preferred-dark-theme = "coal"
+
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+level = 1         # the depth to start folding
+
